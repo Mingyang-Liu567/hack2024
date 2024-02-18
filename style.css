@@ -6,6 +6,9 @@ header {
     h1{
       font-size: 60px;
    }
+    h2{
+      font-size: 25px;
+    }
 
  }
  /*navigation menu style*/
@@ -47,10 +50,10 @@ header {
  
  /* body{
    background-image: url('new-york.jpg');
+   opacity: 0.3;
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat; */
-   /* opacity: 0.3; */
 /* } */
  
  footer{

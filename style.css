@@ -1,34 +1,35 @@
-
-/*header style*/
 header {
-    text-align: center; 
-    padding: 20px;
-    h1{
+   text-align: center; 
+   padding: 20px;
+   h1{
       font-size: 60px;
    }
-    h2{
+   h2{
       font-size: 25px;
-    }
+   }
+ }
 
- }
- /*navigation menu style*/
  nav {
-    text-align: center;
-    word-spacing: 30px;
-    Padding: 10px;
+   text-align: center;
+   Padding: 10px;
  }
+ 
  /*creating the two-column layout*/
  *{
     box-sizing: border-box;
  }
+
  .row {
     display: flex;
     flex-wrap: wrap;
  }
+
  .post-text-box {
+    text-align: center;
     flex: 70%;
     padding: 20px;
  }
+ 
  .profile {
     flex: 70%;
     padding: 20px;
@@ -40,13 +41,13 @@ header {
     margin-left: 0;
     margin-right: 0;
  }
- .profile h1 {
+ /* .profile h1 {
     text-align: center;
  }
  
- .profile h1, h2 {
+ .profile h2 {
     text-align: center;
- }
+ } */
  
  body{
    background-image: url('New york.PNG');

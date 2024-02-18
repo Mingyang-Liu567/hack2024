@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRAVEL IN NEW YORK!!!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:rgb(236, 201, 188);">
+        <header>
+        <h1>TRAVEL IN NEW YORK</h1>
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/New_York_City">New_York</a><br>
+            <a href="https://maps.app.goo.gl/gRH7kUPgibkGHunJ8">Map</a><br>
+            <button onclick="document.location='default.asp'">HTML Tutorial</button><br>
+
+        </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="post-text-box">
+                    <h1>New york</h1>
+                    <section>
+                        <h1>History</h1>
+                        <p>New York is a lively city with famous places like the Statue of Liberty and Times Square. Tall buildings fill the skyline, showing the city's ambition and diversity. Broadway shows are popular, and Central Park is a nice place to relax. People from all over come to chase their dreams in New York.</p>
+                    </section>
+                    <h2>Most Clicks</h2>
+                    <section>
+                        <h1><a href="https://en.wikipedia.org/wiki/Manhattan">Manhattan</a></h1>
+                        <a href="https://en.wikipedia.org/wiki/Chinatown,_Manhattan">ChinaTown</a><br>
+                        <a href="https://en.wikipedia.org/wiki/Koreatown,_Manhattan">KoreaTown</a><br>
+                        <a href="https://www.rockefellercenter.com">RockefellerCenter</a><br>
+                        <a href="https://www.timessquarenyc.org">TimesSquare</a><br>
+                        <h2><a href="https://en.wikipedia.org/wiki/Flushing_Meadows–Corona_Park">Flushing</a></h2>
+                    </section>
+                </div>
+                <div class="profile">
+                    <h1>Get to know New York</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Look_out_point_%28cropped%29.jpg">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1>WELCOME TO NEW TORK</h1>
+            <h2>THE EMPIRE STATE</h2>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+/*header style*/
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ /*navigation menu style*/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+ }
+ /*creating the two-column layout*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /*profile image and heading style*/
+ .profile img {
+    width: 150px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+ 
+ .profile h1, h2 {
+    text-align: center;
+ }

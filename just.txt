@@ -94,3 +94,5 @@ header {
  .profile h1, h2 {
     text-align: center;
  }
+
+  style="background-color:rgb(236, 201, 188);"

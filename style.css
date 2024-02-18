@@ -45,13 +45,13 @@ header {
     text-align: center;
  }
  
- body{
+ /* body{
    background-image: url('new-york.jpg');
-  
-   background-size:contain;
+   background-size: contain;
    background-position: center;
-   background-repeat: no-repeat;
- }
+   background-repeat: no-repeat; */
+   /* opacity: 0.3; */
+/* } */
  
  footer{
    text-align: center; 

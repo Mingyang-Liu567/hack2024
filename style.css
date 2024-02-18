@@ -45,7 +45,7 @@ header {
  }
  
  body{
-   background-image: url('file:///Users/pause/Desktop/new-york.jpg.avif');
+   background-image: url('new-york.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

@@ -46,8 +46,13 @@ header {
  }
  
  body{
-   background-image: url();
-   background-size: cover;
+   background-image: url('new-york.jpg');
+  
+   background-size:contain;
    background-position: center;
    background-repeat: no-repeat;
+ }
+ 
+ footer{
+   text-align: center; 
  }

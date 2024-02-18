@@ -48,13 +48,12 @@ header {
     text-align: center;
  }
  
- /* body{
-   background-image: url('new-york.jpg');
-   opacity: 0.3;
+ body{
+   background-image: url('New york.PNG');
    background-size: contain;
    background-position: center;
-   background-repeat: no-repeat; */
-/* } */
+   background-repeat: no-repeat;
+}
  
  footer{
    text-align: center; 

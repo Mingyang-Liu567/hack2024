@@ -6,6 +6,7 @@ header {
     h1{
       font-size: 60px;
    }
+
  }
  /*navigation menu style*/
  nav {
@@ -45,7 +46,7 @@ header {
  }
  
  body{
-   background-image: url('new-york.jpg');
+   background-image: url();
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

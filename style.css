@@ -44,3 +44,9 @@ header {
     text-align: center;
  }
  
+ body{
+   background-image: url('file:///Users/pause/Desktop/new-york.jpg.avif');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
